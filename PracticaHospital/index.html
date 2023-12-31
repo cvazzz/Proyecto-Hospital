@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Practica Hospital</title>
+</head>
+<style>
+    @media only screen and (max-width: 400px) {
+.seccion1 {
+width: 95%;
+}
+
+.video-cover {
+width: 110%;
+height: 400px; 
+}
+.contacto{
+    text-align: center;
+    display: unset;
+    border: none;
+}
+.doctores{
+    border: none;
+    display: unset;
+
+}
+.video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.video-cover {
+    width: 100%;
+    height: 400px;
+}
+
+.navbar {
+    display: flex;
+    padding: 0px 25px;
+    flex-direction: column;
+    width: 95%;
+}
+
+.datoscont, .formulario {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.datoscont, .formulario {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.small-bar {
+    padding: 5px 20px;
+    width: 90%;
+
+}
+
+}
+</style>
+<body>
+    <div class="seccion1">
+           <!-- Barra de información pequeña -->
+           <div class="small-bar">
+            <div class="contact-info">
+                <div>
+                    Teléfono: xxx-xxx-xxxx
+                    Email: info@example.com
+                    Horario: Mon-Fri 8:00-19:00
+                </div>
+            </div>
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+        <!-- Barra de navegación principal -->
+        <div class="navbar">
+            <div>
+                <img src="imagenes/logo2.jpg" alt="Logo">
+            </div>
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Services</li>
+                <li>Doctors</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+        <!-- Video de portada -->
+        <div class="video-cover">
+            <video autoplay muted loop>
+                <source src="imagenes/video.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+            <div class="overlay-text">
+                <h1>Diagnosticos y tratamientos</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias voluptate fuga architecto error quas debitis commodi quasi ea quibusdam aspernatur?</p>
+            </div>
+        </div>
+
+     
+    </div>
+
+    <section class="contacto">
+        <div class="formulario">
+            <h1>Separa Tu Cita Con Uno De Nuestros Especilistas</h1>
+            <div>
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+            </div>
+            <div>
+            <input type="text" placeholder="Subject">
+            <input type="text" placeholder="3+4=?">
+            </div>
+            <textarea name="comentarios" rows="10" cols="40">Escribe aquí tu mensaje</textarea>
+            <div class="check">
+            <input type="checkbox" id="miCheckbox" name="miCheckbox">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque dolorem repudiandae architecto velit, provident exercitationem asperiores libero nam vel accusantium.</p>
+            </div>
+            <button>Send Messagge</button>
+        </div> 
+        <div class="datoscont">
+            <div class="datos">
+                <i class="fa-solid fa-hospital fa-2xl" style="color: #0a0a0a;"></i>                
+                <h1>  Our Branches </h1>
+                <h5>Lima-Av. Los Olivos N°2520</h5>
+                <h5>Cusco-Calle Real N°5720</h5>
+            </div>
+            <div class="datos">
+                <i class="fa-solid fa-envelope fa-2xl"></i>
+                <h1>  Email Address </h1>
+                <h5>Lima-lima@hotmail.com</h5>
+                <h5>Cusco-Cusco@hotmail.com</h5>
+            </div>
+            <div class="datos">
+                <i class="fa-solid fa-phone-flip fa-2xl"></i>
+                <h1>  Call Center </h1>
+                <h5>Lima-01 4567891</h5>
+                <h5>Cusco-01 1234561</h5>
+            </div>
+            <div class="datos">
+                <i class="fa-regular fa-clock fa-2xl"></i>
+                <h1>  Open Hours </h1>
+                <h5>Mon-Fri 8:00-19:00</h5>
+                <h5>Holidays CLOSED</h5>
+            </div>
+        </div>   
+    </section>
+    <section class="doctores">
+        <h1>Our Neurologists</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate minus iusto pariatur est in. Nulla quod cum quae dolor minus pariatur esse, a exercitationem suscipit.</p>
+        <br>
+        <div class="imagenes">
+            <div class="foto" id="doctor1">
+                <img src="imagenes/doctora.jpg" alt="">
+                <div class="info">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <h2>Yumiko Toyama</h2>
+                <h4>Brain Surgery</h4>
+            </div>
+            <div class="foto" id="doctor2">
+                <img src="imagenes/doctor2.jpg" alt="">
+                <div class="info">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <h2>Alex Stone</h2>
+                <h4>Neurologist</h4>
+            </div>
+            <div class="foto" id="doctor3">
+                <img src="imagenes/doctor.jpg" alt="">
+                <div class="info">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <h2>Ander Kulls</h2>
+                <h4>Neurologist</h4>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
